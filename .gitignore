@@ -205,3 +205,44 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ========================================
+# Security Testing Tools - OCY1102
+# ========================================
+
+# OWASP Dependency-Check Reports
+dependency-check-report.xml
+dependency-check-report.html
+dependency-check-report.json
+dependency-check-data/
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# OWASP ZAP Reports
+zap-report.html
+zap-report.xml
+zap-report.json
+zap-baseline-report.*
+
+# Jenkins Build Artifacts
+**/target/
+**/build/
+
+# OS Files (adicionales)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Credentials (adicionales de seguridad)
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets/
+config/local.py
