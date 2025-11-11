@@ -62,8 +62,7 @@ python app.py
 **Modalidad:** Trabajo en Parejas
 
 ## 👥 Autores
-- [Tu Nombre]
-- [Nombre de tu Compañero]
+- David Cuevas Salgado
 
 ---
 **Fecha:** Noviembre 2025
